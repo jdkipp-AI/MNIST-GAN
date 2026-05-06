@@ -27,14 +27,14 @@ evidence of the learning progression.
 The generator starts with pure random noise and has no understanding of what
 a digit looks like.
 
-![Untrained Attempt](untrained_attempt.png)
+![Untrained Attempt](blank_canvas.png)
 
 ---
 
 ### Stage 2 - First 10 Epochs
 Digit shapes begin to emerge but are blurry and noisy.
 
-![First 10 Epochs](fake_number_first_10_epochs.png)
+![First 10 Epochs](10_epochs.png)
 
 ---
 
@@ -42,7 +42,7 @@ Digit shapes begin to emerge but are blurry and noisy.
 Digits are clearly recognizable and well formed. The generator has learned
 the core structure of handwritten numbers.
 
-![50 Epochs](fake_number_final_50_epochs.png)
+![50 Epochs](50_epochs.png)
 
 ---
 
@@ -50,7 +50,7 @@ the core structure of handwritten numbers.
 Digits remain readable with some texture variation, demonstrating the
 model's ability to generate diverse outputs.
 
-![100 Epochs](fake_number_first_100_epochs.png)
+![100 Epochs](100_epochs.png)
 
 ---
 
@@ -165,7 +165,3 @@ more advanced generative AI work.
 Author
 James D. Kipp — Quality and Data Specialist transitioning into AI
 GitHub: https://github.com/jdkipp-AI
-
-text
-
----
