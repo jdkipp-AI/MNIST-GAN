@@ -34,7 +34,7 @@ a digit looks like.
 ### Stage 2 - First 10 Epochs
 Digit shapes begin to emerge but are blurry and noisy.
 
-![First 10 Epochs](fake%20number%20first%2010%20epochs.png)
+![First 10 Epochs](fake_number_first_10_epochs.png)
 
 ---
 
@@ -42,7 +42,7 @@ Digit shapes begin to emerge but are blurry and noisy.
 Digits are clearly recognizable and well formed. The generator has learned
 the core structure of handwritten numbers.
 
-![50 Epochs](fake%20number%20final%2050%20epochs.png)
+![50 Epochs](fake_number_final_50_epochs.png)
 
 ---
 
@@ -50,7 +50,7 @@ the core structure of handwritten numbers.
 Digits remain readable with some texture variation, demonstrating the
 model's ability to generate diverse outputs.
 
-![100 Epochs](fake%20number%20first%20100%20epochs.png)
+![100 Epochs](fake_number_first_100_epochs.png)
 
 ---
 
@@ -75,11 +75,11 @@ model's ability to generate diverse outputs.
 
 ## Tech Stack
 
-- **Programming Language:** Python
-- **Deep Learning Framework:** TensorFlow / Keras
-- **Data Tools:** NumPy, Matplotlib
-- **Dataset:** MNIST Handwritten Digits
-- **Environment Management:** Conda
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+- Conda
 
 ---
 
@@ -133,44 +133,39 @@ In this project, I:
 ## Installation and Setup
 
 ### 1. Clone the Repository
-
-    git clone https://github.com/jdkipp-AI/MNIST-GAN.git
-    cd MNIST-GAN
-
-### 2. Create and Activate Conda Environment
-
-    conda create -n gan_env python=3.10
-    conda activate gan_env
-
-### 3. Install Dependencies
-
-    pip install -r requirements.txt
-
-### 4. Run the Concept Demo
-
-    python gan_battle.py
-
-### 5. Run Full Training
-
-    python gan_fake_image_final.py
-
----
-
-## Future Enhancements
-
-- Implement a Convolutional GAN (DCGAN) for higher quality image output
-- Add a loss history plot to visualize training stability over time
-- Extend to conditional GAN (cGAN) to generate specific digit classes on demand
-- Train on more complex datasets such as CIFAR-10 or custom image sets
-- Build an interactive interface to generate images on demand
-
----
-
-## Why This Project Matters
-
+```bash
+git clone https://github.com/jdkipp-AI/MNIST-GAN.git
+cd MNIST-GAN
+2. Create and Activate Conda Environment
+bash
+conda create -n gan_env python=3.10
+conda activate gan_env
+3. Install Dependencies
+bash
+pip install -r requirements.txt
+4. Run the Concept Demo
+bash
+python gan_battle.py
+5. Run Full Training
+bash
+python gan_fake_image_final.py
+Future Enhancements
+Implement a Convolutional GAN (DCGAN) for higher quality image output
+Add a loss history plot to visualize training stability over time
+Extend to conditional GAN (cGAN) to generate specific digit classes on demand
+Train on more complex datasets such as CIFAR-10 or custom image sets
+Build an interactive interface to generate images on demand
+Why This Project Matters
 Generative Adversarial Networks are one of the foundational architectures in
 modern generative AI. This project demonstrates a working implementation with
 production-level considerations such as training stability, model persistence,
 and clear documentation of results. It serves as a practical foundation for
 more advanced generative AI work.
 
+Author
+James D. Kipp — Quality and Data Specialist transitioning into AI
+GitHub: https://github.com/jdkipp-AI
+
+text
+
+---
